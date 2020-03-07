@@ -1,0 +1,25 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1.3em;
+    border: 2px solid $main;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $main;
+    line-height: 1;
+    span {
+        position: relative;
+        top: -1px;
+        transform: rotate(45deg);
+        display: block;
+        width: 7px;
+        height: 7px;
+        margin-left: 1em;
+        border: 3px solid $main;
+        border-bottom: transparent;
+        border-left: transparent;
+    }
+}

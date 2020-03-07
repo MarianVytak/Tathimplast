@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__call {
+    margin-right: 1.5em;
+}
+
+.header__call_title {
+    margin-bottom: 5px;
+}
+
+.header__call_link {
+    font-weight: bold;
+    font-size: 21px;
+    color: $black;
+    &:hover {
+        color: $main;
+    }
+}
