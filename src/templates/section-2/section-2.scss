@@ -33,3 +33,13 @@
         width: 100%;
     }
 }
+
+.section-2__list_item_title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    width: 100%;
+    bottom: -10px;
+    font-weight: bold;
+    text-align: center;
+}
