@@ -1,0 +1,25 @@
+.section-5 {
+    padding: 70px 0 90px;
+    background-image: url(../../assets/img/bg/section-5.jpg);
+    background-size: cover;
+    background-position: center;
+    color: $white;
+}
+
+.section-5__text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    font-weight: bold;
+    font-size: 18px;
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        span {
+            &:first-child {
+                margin-right: 30px;
+            }
+        }
+    }
+}
