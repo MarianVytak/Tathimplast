@@ -1,0 +1,23 @@
+.section-6 {
+    padding: 90px 0 100px;
+}
+
+.section-6__title {
+    margin-bottom: 40px;
+}
+
+.section-6__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+
+.section-6__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 188px;
+    padding: 2em;
+    box-sizing: border-box;
+    border: 1px solid #c7c7c7;
+}
