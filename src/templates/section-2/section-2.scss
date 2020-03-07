@@ -1,0 +1,35 @@
+.section-2 {
+    padding: 75px 0;
+}
+
+.section-2__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-2__list_item {
+    position: relative;
+    width: 100%;
+    margin-right: 60px;
+    &:first-child {
+        width: 180%;
+        margin-right: 200px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -25px;
+            transform: translateX(100%);
+            width: 140px;
+            height: 1px;
+            background-color: #c7c7c7;
+        }
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+    img {
+        width: 100%;
+    }
+}
