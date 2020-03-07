@@ -1,0 +1,41 @@
+.section-1 {
+    padding: 2em 0;
+    background-image: url(../../assets/img/bg/section-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-1__block {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 2em;
+}
+
+.section-1__left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-1__title {
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 30px;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.section-1__form {
+    width: 100%;
+    max-width: 443px;
+    padding: 50px 40px 60px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: rgba(#72adc4, .95);
+}
+
+.section-1__form_title {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    color: $white;
+}
