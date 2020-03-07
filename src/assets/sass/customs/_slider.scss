@@ -1,0 +1,30 @@
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid $white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  outline: none;
+  transition: .5s;
+  opacity: .4;
+  z-index: 2000;
+  &:before {
+    content: '';
+  }
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.slick-prev {
+  transform: rotate(135deg);
+}
+
+.slick-next {
+  transform: rotate(-45deg);
+}
