@@ -5,7 +5,7 @@ $(function(){
 
 
   // Navigation anchors
-  $('.navigation__link').on('click', function(e){
+  $('.js-anchor').on('click', function(e){
     e.preventDefault();
 
     let navScroll = $(this).attr('href'),
