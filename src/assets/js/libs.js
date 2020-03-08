@@ -1,1 +1,2 @@
-//= ../../../bower_components/lightgallery.js/dist/js/lightgallery.min.js
+//= ../../../bower_components/jquery/dist/jquery.min.js
+//= ../../../bower_components/fancybox/dist/jquery.fancybox.min.js

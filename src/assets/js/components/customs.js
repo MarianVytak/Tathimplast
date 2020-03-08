@@ -1,19 +1,19 @@
-// Lightgallery
-lightGallery(document.getElementById('lightgallery'));
+$(function(){
 
 
-// Navigation anchors
-const anchors = document.querySelectorAll('.navigation__link')
+  'use strict';
 
-for (let anchor of anchors) {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault()
-    
-    const blockID = anchor.getAttribute('href').substr(1)
-    
-    document.getElementById(blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    })
-  })
-}
+
+  // Navigation anchors
+  $('.navigation__link').on('click', function(e){
+    e.preventDefault();
+
+    let navScroll = $(this).attr('href'),
+    navScrollBlock = $(navScroll).offset().top;
+    $('html, body').animate({
+      scrollTop: navScrollBlock
+    }, 2000);
+  });
+
+
+});
