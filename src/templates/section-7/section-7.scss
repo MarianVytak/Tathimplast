@@ -1,0 +1,21 @@
+.section-7 {
+    padding: 70px 0 80px;
+    background-color: $main;
+    color: $white;
+}
+
+.section-7__grid {
+    display: grid;
+    grid-template-columns: 2.2fr 2fr;
+    grid-gap: 45px;
+}
+
+.section-7__title {
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.section-7__certificate {
+    display: flex;
+    justify-content: space-between;
+}
