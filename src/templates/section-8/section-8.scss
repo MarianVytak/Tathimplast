@@ -1,0 +1,44 @@
+.section-8 {
+    padding: 65px 0 120px;
+    background-color: rgba(16, 39, 95, 0.94);
+    color: $white;
+}
+
+.section-8__title {
+    margin-bottom: 30px;
+}
+
+.section-8__grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 70px;
+}
+
+.section-8__info {
+    font-size: 18px;
+}
+
+.section-8__info_item {
+    margin-bottom: 0.5em;
+}
+
+.section-8__info_title {
+    font-weight: bold;
+}
+
+.section-8__info_item_link {
+    color: $white;
+}
+
+.section-8__form {
+    margin-top: 3em;
+    input {
+        background-color: #304a87;
+    }
+}
+
+.section-8__form_title {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 19px;
+}
