@@ -28,6 +28,9 @@
 
 .section-8__info_item_link {
     color: $white;
+    &:hover {
+        color: $main;
+    }
 }
 
 .section-8__form {
