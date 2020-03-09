@@ -1,0 +1,136 @@
+// .section-1,
+// .section-2,
+// .section-3,
+// .section-4,
+// .section-5,
+// .section-6,
+// .section-7,
+// .section-8 {
+//     display: none;
+// }
+
+@media (max-width: 1200px) {
+
+    // Customs
+    .btn {
+        font-size: 14px;
+    }
+    .h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    // Header
+    .logo {
+        width: 180px;
+    }
+    .header__call_link {
+        font-size: 18px;
+    }
+    
+    // Navigation
+    .navigation__list {
+        justify-content: space-between;
+    }
+    .navigation__link {
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    // Section 1
+    .section-1__title {
+        font-size: 22px;
+    }
+    .section-1__form {
+        padding: 30px 30px 50px;
+    }
+    .section-1__form_title {
+        font-size: 16px;
+    }
+
+    // Section 2
+    .section-2 {
+        padding: 45px 0;
+    }
+    .section-2__list_item {
+        margin-right: 30px;
+        &:first-child {
+            width: 150%;
+            margin-right: 30px;
+            &::before {
+                display: none;
+            }
+        }
+    }
+    .section-2__list_item_title {
+        bottom: -5px;
+        font-size: 12px;
+    }
+
+    // Section 3
+    .section-3 {
+        padding: 30px 0;
+    }
+    .section-3__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    // Section 4
+    .section-4 {
+        padding: 30px 0 0;
+    }
+
+    // Section 5
+    .section-5 {
+        padding: 30px 0;
+        .h2 {
+            margin-bottom: 15px;
+        }
+    }
+    .section-5__text {
+        font-size: 16px;
+    }
+
+    // Section 6
+    .section-6 {
+        padding: 45px 0 60px;
+    }
+
+    // Section 7 
+    .section-7 {
+        padding: 45px 0;
+    }
+    .section-7__grid {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .section-7__title {
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .section-7__certificate {
+        justify-content: flex-start;
+    }
+    .section-7__certificate_item {
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    // Section 8
+    .section-8 {
+        padding: 45px 0 60px;
+    }
+    .section-8__grid {
+        grid-template-columns: 1.3fr 2fr;
+        grid-gap: 30px;
+    }
+    .section-8__info {
+        font-size: 14px;
+    }
+    .section-8__form {
+        margin-top: 2.5em;
+    }
+
+}
