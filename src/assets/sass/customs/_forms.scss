@@ -1,5 +1,6 @@
 .form_group {
-    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 25px;
     &:last-child {
         margin-bottom: 0;
     }
@@ -8,6 +9,20 @@
 label {
     font-size: 16px;
     color: $white;
+    &.form__input_error,
+    &.form__input_success {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: translateY(100%);
+        font-size: 12px;
+    }
+    &.form__input_error {
+        color: red;
+    }
+    &.form__input_success {
+        color: green;
+    }
 }
 
 input {
